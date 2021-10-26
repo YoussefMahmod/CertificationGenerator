@@ -1,0 +1,17 @@
+backports.entry-points-selectable==1.1.0
+certifi==2021.5.30
+charset-normalizer==2.0.4
+conda==4.3.16
+distlib==0.3.2
+filelock==3.0.12
+idna==3.2
+Pillow==8.4.0
+pipenv==2021.5.29
+platformdirs==2.2.0
+pycosat==0.6.3
+requests==2.26.0
+ruamel.yaml==0.17.10
+ruamel.yaml.clib==0.2.6
+urllib3==1.26.6
+virtualenv==20.7.2
+virtualenv-clone==0.5.6

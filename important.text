@@ -1,0 +1,9 @@
+How to use this script:
+    1. First you have to locate your certification image and you have 2 option to do this
+        1.1. you can insert a full path  for example /x/y/z/certification.png
+        1.2. you can put your image file beside main file and rename it to 'GDSCCertification.png' and skip inserting the path (Leave it empty it will be located automatically).
+
+    2. Second you have to locate your csv file which includes name of attendees.
+    3. Third you have to specify your column name.
+
+
