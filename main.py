@@ -58,13 +58,14 @@ def get_date(target_path, validator=None):
         for row in csv_reader:
             if column_idx == -1:
                 column_idx = get_column_idx(row)
-            result.append(row[column_idx])
-        if result:
+            if len(row[column_idx]) > 0:
+                result.append(row[column_idx])
+        if len(result) > 1:
             result.pop(0)
             print('Data Fetched Successfully ...')
         else:
-            print('No Data!')
-            return []
+            print('Invalid Data!')
+            exit(0)
     if validator is not None:
         validator(result)
     return result
@@ -89,7 +90,7 @@ def generate_images(attendees, certification_file_path):
 
         i1.text((mp[words], y), f'{attendee}', font=my_font, fill=(0, 0, 0), align='centre')
         img.save(f'Certifications/{photo_name}.png')
-
+    
 
 def format_names(names):
     for idx in range(len(names)):
