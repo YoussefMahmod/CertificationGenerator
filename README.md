@@ -75,9 +75,9 @@ $ python3 main.py
 
    ***
 
-   **NOTE:**
+   **⚠ NOTE:**
 
-   > ⚠ Here you should try 1-letter name say "a" and try to play with x, y till you center it wherever you want.
+   > Here you should try 1-letter name say "a" and try to play with x, y till you center it wherever you want.
 
    ***
 
@@ -87,11 +87,11 @@ $ python3 main.py
 
    ***
 
-   **NOTE:**
+   **⚠ NOTE:**
 
-   > ⚠ If you reached this point so CONGRATULATIONS Your Images generated successfully under /CertificationGenerator/Certifications Directory
+   > If you reached this point so CONGRATULATIONS Your Images generated successfully under /CertificationGenerator/Certifications Directory
 
-   > ⚠ Continue if and only if
+   > Continue if and only if
    > 1.your images generated as expected
    > 2.you have Emails Column which have mail "corresponding" to each name inside a csv file to send to.
 
@@ -103,11 +103,11 @@ $ python3 main.py
 
    ***
 
-   **NOTE:**
+   **⚠ NOTE:**
 
-   > ⚠ I recommend you to use a token not your actual password that's will handle some SMTPauth errors.
+   > I recommend you to use a token not your actual password that's will handle some SMTPauth errors.
 
-   > ⚠ To generate a token for gmail use:
+   > To generate a token for gmail use:
    > https://security.google.com/settings/security/apppasswords
 
    ***
