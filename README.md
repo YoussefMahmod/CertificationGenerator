@@ -39,6 +39,14 @@ $ git clone https://github.com/YoussefMahmod/CertificationGenerator.git
 
 <br>
 
+
+
+https://user-images.githubusercontent.com/53763508/139746729-f7812d14-53fb-4017-8c6c-bf0f3163539a.mp4
+
+
+
+<br>
+
 This script divded into two parts Generate Images and Send Images so i recommend you not to send images before you check generated images.
 
 <br>
