@@ -46,7 +46,7 @@ This script divded into two parts Generate Images and Send Images so i recommend
 ### 1. If You're in windows:
 
 ```
-Simply run the exe file exists in dist directory.
+Simply run main.exe
 ```
 
 ### 2. If You're in Linux run the command
