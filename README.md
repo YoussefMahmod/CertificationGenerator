@@ -2,9 +2,11 @@
 
 > ## Objectives
 
-1. The script will help you create many certificates for the attendees in an easy and simple way and without any effort (Names will be centered wherever you want). You only have to select the column that contains their names and leave the rest to the script.
+1. The script will help you to create many certificates for your events' attendees in an easy and simple way and without any effort (Names will be centered wherever you want). You only have to select the column that contains their names and leave the rest to the script.
 
-2. The script will also help you to send these images that it made for you to the attendees by selecting the column that contains the attendees’ emails in the same order of names (meaning that each name has a corresponding email in the same row).
+2. The script will also help you to send these certifications that it made for you to the attendees by selecting the column that contains the attendees’ emails in the same order of names (meaning that each name has a corresponding email in the same row).
+
+
 
 <br>
 
@@ -75,7 +77,7 @@ $ python3 main.py
 
    ***
 
-   **⚠ NOTE:**
+   **☀️ NOTE:**
 
    > Here you should try 1-letter name say "a" and try to play with x, y till you center it wherever you want.
 
@@ -87,7 +89,7 @@ $ python3 main.py
 
    ***
 
-   **⚠ NOTE:**
+   **☀️ NOTE:**
 
    > If you reached this point so CONGRATULATIONS Your Images generated successfully under /CertificationGenerator/Certifications Directory
 
@@ -103,7 +105,7 @@ $ python3 main.py
 
    ***
 
-   **⚠ NOTE:**
+   **☀️ NOTE:**
 
    > I recommend you to use a token not your actual password that's will handle some SMTPauth errors.
 
