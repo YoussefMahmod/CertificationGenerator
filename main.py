@@ -1,4 +1,6 @@
+from io import BytesIO
 import os
+from sys import maxsize
 from PIL import Image
 from PIL import ImageDraw
 from PIL import ImageFont
@@ -6,6 +8,11 @@ from csv import reader
 import re
 from mailsender import SendMail
 images = []
+
+file = open("/usr/share/fonts/truetype/freefont/FreeSerifBoldItalic.ttf", "rb")
+bytes_font = BytesIO(file.read())
+my_font = ImageFont.truetype(bytes_font, 72)
+
 print("Enter X,Y which you need to start writing names from.")
 x = int(input("X:"))
 y = int(input("Y:"))
@@ -74,10 +81,9 @@ def get_date(target_path, validator=None):
 def generate_images(attendees, certification_file_path):
     if 'Certifications' not in os.listdir():
         os.mkdir('Certifications')
-
+        
     for attendee in attendees:
         k = attendee
-        my_font = ImageFont.truetype('MonospaceBold.ttf', 51)
         photo_name = '_'.join(k.split(' '))
         img = Image.open(certification_file_path)
         i1 = ImageDraw.Draw(img)
@@ -145,4 +151,3 @@ if input('Continue to send images(Y/N):').lower() == 'y':
     print('Images sent successfully.')
 else:
     print('Ok, GoodBye see ya later!')
-
